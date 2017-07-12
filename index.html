@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<HEAD>
+		<title>Star Wars RPG</title>
+		<!--Link to the reset-->
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css" >
+		<!--link to bootstrap cdn-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<!--link to css file-->
+		<link rel="stylesheet" type="text/css" href="assets/css/star_wars_game_style.css" >
+		<!--link to jQuery cdn -->
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+	</HEAD>
+	<body>
+		<div id="title" class="row">
+			<div class="col-md-12">
+				Star Wars RPG Game
+			</div>
+		</div>
+
+		<div id="selectCharacter" class="row">
+			<div class="col-md-12">
+				<span style="text-align: left"> Select Your Character</span>
+				<br>
+				<section id="hc">
+					<span>Han & Chewy </span>
+					<br>
+					<img src="assets/images/han_and_chewy.jpg">
+					<br>
+					<label>L:</label>
+					<span id="hcLifeNum">0</span>
+					<label>A:</label>
+					<span id="hcAttackNum">0</span>
+					<!-- <div id="hcLifeBar"></div> -->
+				</section>	
+				
+				<section id="luke">
+					<span> Luke </span>
+					<br>
+					<img src="assets/images/luke.jpg">
+					<br>
+					<label>L:</label>
+					<span id="lukeLifeNum">0</span>
+					<label>A:</label>
+					<span id="lukeAttackNum">0</span>
+					<!-- <div id="lukeLifeBar"></div> -->
+				</section>
+
+				<section id="palpatine">
+					<span> E. Palpatine</span>
+					<br>
+					<img src="assets/images/palpatine.jpg">
+					<br>
+					<label>L:</label>
+					<span id="palpatineLifeNum">0</span>
+					<label>A:</label>
+					<span id="palpatineAttackNum">0</span>
+					<!-- <div id="palpatineLifeBar"></div> -->
+				</section>
+
+				<section id="vadar">
+					<span> Darth Vadar</span>
+					<br>
+					<img src="assets/images/vadar.jpg">
+					<br>
+					<label>L:</label>
+					<span id="vadarLifeNum">0</span>
+					<label>A:</label>
+					<span id="vadarAttackNum">0</span>
+					<!-- <div id="vadarLifeBar"></div> -->
+				</section>
+
+				<section id="trooper">
+					<span>Storm Trooper</span>
+					<br>
+					<img src="assets/images/storm_trooper.jpg">
+					<br>
+					<label>L:</label>
+					<span id="trooperLifeNum">0</span>
+					<label>A:</label>
+					<span id="trooperAttackNum">0</span>
+					<!-- <div id="stormTrooperLifeBar"></div> -->
+				</section>
+			</div>
+		</div>
+	
+		<div id="selectEnemy_Row" class="row">
+			<div class="col-md-12">
+				Select the Enemy to Attack
+				<div id="selectEnemy">
+				</div>
+			</div>
+		</div>
+
+		<div id="attackEnemy_Row" class="row">
+			<div id="attackEnemy" class="col-md-12">
+				Defender
+				<div id="attackEnemy">
+				</div>
+			</div>
+		</div>
+
+		<div id="fightSection" class="row">
+			<div class="col-md-12">
+				<button id="fight_button" style="background-color: grey;">Fight</button>
+				<span id="victory" style="color: yellow"></span>
+			</div>
+		</div>
+		
+		<div id="victoryImage">
+		</div>
+		<script type="text/javascript" src="assets/javascript/star_wars_game_Altered.js"></script>		
+	</body>

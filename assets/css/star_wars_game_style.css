@@ -1,0 +1,158 @@
+body {
+	background-image: url("../images/star_wars_wallpaper.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+section {
+	position: relative;
+	float: left;
+	border-radius: 5px;
+	background-color: white;
+	margin: 5px;
+	width: 130px;
+	color: black;
+	border: 5px;
+	border-style: solid;
+	border-color: green;
+}
+
+img {
+	height: 100px;
+	width: 100px;
+	margin-left: 10px;
+	/*margin-right: 10px;*/
+}
+
+span {
+	margin-left: 10px;
+}
+
+label {
+	margin-left: 10px;
+	margin-right: -5px;
+}
+
+button {
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: yellow;
+}
+
+#title{
+	position: relative;
+	float: right;
+	font-size: 24px;
+	font-weight: bold;
+	color: yellow;
+	margin-right: 50px;
+	height: 50px;
+}
+
+#selectCharacter {
+	margin-left: 50px;
+	margin-top: 55px;
+	margin-right: 50px;
+	color: yellow;
+	font-weight: bold;
+	border-radius: 5px;
+	background-color: grey;
+}
+
+#selectEnemy_Row {
+	margin-top: 20px;
+	margin-left: 50px;
+	margin-right: 50px;
+	color: yellow;
+	background-color: grey;
+	border-radius: 5px;
+}
+
+#selectEnemy{
+	margin-left: 5px;
+}
+
+#attackEnemy_Row {
+	margin-top: 20px;
+	margin-left: 50px;
+	margin-right: 50px;
+	color: yellow;
+	background-color: grey;
+	border-radius: 5px;
+}
+
+#hcLifeBar{
+	width: 100px;
+	background-color: green;
+	height: 5px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+}
+
+#lukeLifeBar {
+	width: 100px;
+	background-color: green;
+	height: 5px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+}
+
+#palpatineLifeBar {
+	width: 100px;
+	background-color: green;
+	height: 5px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+}
+
+#vadarLifeBar {
+	width: 100px;
+	background-color: green;
+	height: 5px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+}
+
+#stormTrooperLifeBar {
+	width: 100px;
+	background-color: green;
+	height: 5px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+}
+
+#fightSection {
+	margin-top: 20px;
+	margin-left: 50px;
+	margin-right: 50px;
+	color: yellow;
+	background-color: grey;
+	border-radius: 5px;
+}
+
+
+
+#vadarVictoryImage {
+	position: fixed;
+	background-image: url(../images/vadar_win.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+}
+
+
+.select_Enemy {
+	background-color: red;
+	border-color: black;
+}
+
+.test{
+	margin-left: 20px;
+}
+
+.display_none {
+	display: none;
+}
+
+
